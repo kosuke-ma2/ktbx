@@ -2,11 +2,16 @@
 
 ## Tech Stack
 ### javascript
-- Bun
-- Svelte
-- Sveltekit
-- typescirpt
-- tailwindcss
+|type|name|
+|----|----|
+|Runtim & Engine|Bun|
+|Javascript Flavour|Typescript|
+|Framework|Svelte|
+|Svelte Framework|Svelte Kit|
+|Css Library|tailwind css|
+|Component Library||
+|Linter|Biomejs|
+|Formatter|Biomejs|
 ### rust
 - tauri
 
