@@ -4,16 +4,17 @@
 
 ### javascript
 
-| type               | name               |
-| ------------------ | ------------------ |
-| Runtim & Engine    | Bun                |
-| Javascript Flavour | Typescript         |
-| Framework          | Svelte             |
-| Svelte Framework   | Svelte Kit         |
-| Css Library        | tailwind css       |
-| Component Library  | Flobite            |
-| Linter             | Eslint flat config |
-| Formatter          | Prettier           |
+| type                | name               |
+| ------------------- | ------------------ |
+| Runtim & Engine     | Bun                |
+| Javascript Flavour  | Typescript         |
+| Framework           | Svelte             |
+| Svelte Framework    | Svelte Kit         |
+| Css Library         | tailwind css       |
+| Component Library   | Flobite            |
+| Linter              | Eslint flat config |
+| Formatter           | Prettier           |
+| Code Quaolity Tools | husky, lint-staged |
 
 ### rust
 

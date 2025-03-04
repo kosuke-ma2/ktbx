@@ -9,9 +9,16 @@
     "preview": "vite preview",
     "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
     "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
-		"format": "prettier --write .",
-		"lint": "prettier --check . && eslint .",
-    "tauri": "tauri"
+    "format": "prettier --write .",
+    "lint": "prettier --check . && eslint .",
+    "tauri": "tauri",
+    "prepare": "husky"
+  },
+  "lint-staged": {
+    "src/**/*.{js,ts,svelte}": [
+      "eslint --fix",
+      "prettier --write"
+    ]
   },
   "license": "MIT",
   "dependencies": {
@@ -33,6 +40,8 @@
     "flowbite": "^3.1.2",
     "flowbite-svelte": "^0.48.4",
     "flowbite-svelte-icons": "^2.0.2",
+    "husky": "^9.1.7",
+    "lint-staged": "^15.4.3",
     "prettier": "^3.5.3",
     "prettier-plugin-svelte": "^3.3.3",
     "svelte": "^5.0.0",
